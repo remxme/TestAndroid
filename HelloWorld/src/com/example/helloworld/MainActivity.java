@@ -24,9 +24,9 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		TextView myTextView = (TextView) findViewById(R.id.myTextView);
-		myTextView.setText("我的textView");
+		myTextView.setText("锟揭碉拷textView");
 		Button myButton = (Button) findViewById(R.id.myButton);
-		myButton.setText("我的按钮" + "\n" + "换行");
+		myButton.setText("锟揭的帮拷钮" + "\n" + "锟斤拷锟斤拷");
 		myButton.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -55,8 +55,8 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				myApp = (MyApp) getApplication();
-				myApp.setName("李四1111111111");
-				Log.i(TAG, "李四");
+				myApp.setName("111111");
+				Log.i(TAG, "111111");
 				Intent intent = new Intent(MainActivity.this,
 						TestActivity.class);
 				startActivity(intent);
