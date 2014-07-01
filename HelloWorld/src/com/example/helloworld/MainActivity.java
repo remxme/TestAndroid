@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				myApp = (MyApp) getApplication();
-				myApp.setName("李四");
+				myApp.setName("李四1111111111");
 				Log.i(TAG, "李四");
 				Intent intent = new Intent(MainActivity.this,
 						TestActivity.class);
